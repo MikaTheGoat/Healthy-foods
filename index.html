@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthy Food Swaps</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Healthy Food Swaps</h1>
+    <p>Discover delicious and nutritious alternatives to your favorite unhealthy foods.</p>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search foods..." />
+      <button id="toggle-theme">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <main id="food-grid"></main>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span id="close-popup">&times;</span>
+      <h2 id="popup-title"></h2>
+      <p id="popup-unhealthy"></p>
+      <ul id="popup-nutrition"></ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Healthy Living. Eat smart, live well.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
